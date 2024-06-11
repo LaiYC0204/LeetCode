@@ -42,7 +42,6 @@ def GPTLengthOfLongestSubstring(s):
     return max_len
 
 answers = {'abcabcbb':3, 'bbbbb':1, 'pwwkew':3, ' ':1, '':0, 'aau':2, 'abc':3, 'cdd':2, 'abba':2}
-#answers = {'abbca':2}
 
 for key, value in answers.items():
     output = GPTLengthOfLongestSubstring(key)
