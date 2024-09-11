@@ -74,13 +74,13 @@ def otherMergeTwoLists(list1, list2):
 
     return head.next
 # 建立 l1: 9 -> 9 -> 9 -> 9 -> 9
-a = ListNode(1)
+a = ListNode(4)
 a.next = ListNode(2)
-a.next.next = ListNode(4)
+a.next.next = ListNode(1)
 
 # 建立 l2: -> 9 -> 9 -> 9
 b = ListNode(0)
 """b.next = ListNode(3)
 b.next.next = ListNode(4)"""
 
-print_linked_list(otherMergeTwoLists(None,b))
+print_linked_list(otherMergeTwoLists(None,a))
